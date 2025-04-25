@@ -18,14 +18,14 @@ estudiante1 = Estudiante(nombre, edad, grado)
 print(f"""
       Datos del estudiante \n\n
       Nombre: {estudiante1.name}\n
-      Edad: {estudiante1.age}\n
+      Edad: {estudiante1.age} años\n
       Grado: {estudiante1.grade}\n
       """)
 
 while True:
     estudiar = input("Escribe estudiar: ")
     if estudiar.lower() == "estudiar":
-        estudiante1.aburrido()
+        estudiante1.estudiar()
         break
     else:
         print("Entrada no valida!")
